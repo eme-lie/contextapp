@@ -2,12 +2,12 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav>
-      <h1 className="btn-blue">The Book App</h1>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+    <nav className="p-2">
+      <h1 className="text-blue-500">The Book App</h1>
+      <ul className="p-0">
+        <li className="inline-block mx-2">Home</li>
+        <li className="inline-block mx-2">About</li>
+        <li className="inline-block mx-2">Contact</li>
       </ul>
     </nav>
   );
